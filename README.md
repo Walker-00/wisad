@@ -27,3 +27,23 @@ git clone https://github.com/Walker-00/CVE-2021-22911
 pip install oathtool argparse hashlib && cd CVE-2021-22911 && python wisad.py -h
 ```
 
+<h4><code># Debian</code></h4>
+
+```
+sudo apt install git python3 python3-pip -y
+git clone https://github.com/Walker-00/CVE-2021-22911
+pip3 install oathtool argparse hashlib && cd CVE-2021-22911 && python wisad.py -h
+```
+
+<h3><code># Usage</code></h3>
+
+```
+-h, --help for help message
+-U, --user for User[name/mail] that you wanna change to
+-A, --admin for Admin[name/mail] that you wanna change to
+-T, --target for Target Url
+```
+
+<h3><code># Screenshot</code></h3>
+
+<img src="https://firebasestorage.googleapis.com/v0/b/yyyy-yyyy.appspot.com/o/ss.png?alt=media&token=9e2fc46a-2f07-4fed-8e79-c9d53da54df4"/>
