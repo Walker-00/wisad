@@ -8,6 +8,7 @@
 <h3><code># Required PIP package</code></h3>
 
 ```
+random
 requests
 time 
 string
