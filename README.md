@@ -16,3 +16,14 @@ argparse
 oathtool
 json
 ```
+
+<h3><code># Installation</code></h3>
+
+<h4><code># Arch</code></h4>
+
+```
+sudo pacman -Syu git python python-pip --needed
+git clone https://github.com/Walker-00/CVE-2021-22911
+pip install oathtool argparse hashlib && cd CVE-2021-22911 && python wisad.py -h
+```
+
