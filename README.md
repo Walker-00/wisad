@@ -24,16 +24,16 @@ json
 
 ```
 sudo pacman -Syu git python python-pip --needed
-git clone https://github.com/Walker-00/CVE-2021-22911
-pip install oathtool argparse hashlib && cd CVE-2021-22911 && python wisad.py -h
+git clone https://github.com/Walker-00/wisad
+pip install oathtool argparse hashlib && cd wisad && python wisad.py -h
 ```
 
 <h4><code># Debian</code></h4>
 
 ```
 sudo apt install git python3 python3-pip -y
-git clone https://github.com/Walker-00/CVE-2021-22911
-pip3 install oathtool argparse hashlib && cd CVE-2021-22911 && python wisad.py -h
+git clone https://github.com/Walker-00/wisad
+pip3 install oathtool argparse hashlib && cd wisad && python wisad.py -h
 ```
 
 <h3><code># Usage</code></h3>
